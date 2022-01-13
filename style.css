@@ -1,0 +1,46 @@
+nav{
+    background-color: white;
+    color: black;
+    width: 100%;
+    font-size: 2rem;
+    border-bottom: 5px solid rgb(235, 188, 101);
+    position: fixed;
+    display: flex;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.menu1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 2rem;
+}
+.menu1 a{
+    color: black;
+    text-decoration: black;
+    padding: 0.5rem;
+}
+#logo{
+    align-items: center;
+    height: 4rem;
+}
+.acceso div{
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 0.75rem;
+    padding: 0.25rem;
+    margin-right: 0.25rem;
+}
+.acceso input{
+    border-bottom: 2px solid black;
+    color: black;
+}
