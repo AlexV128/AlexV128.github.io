@@ -6,16 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <title>Grandes Felinos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <title>The Avengers</title>
 </head>
 <body>
-    <nav>
+    <header>
         <div class="menu">
+            <div>
+                <img src="assets/avengers.png" alt="" id="logo">
+            </div>
             <div class="menu1">
-                <img src="garras.png" alt="" id="logo">
-                <a href="">Grandes Felinos</a>
-                <a href="">Tabla</a>
-                <a href="">Informacion</a>
+                <nav>
+                <a href="/Lenguajes%20y%20Marcas/HTML%20Avengers/index.html#personajes">Personajes</a>
+                <a href="/Lenguajes%20y%20Marcas/HTML%20Avengers/index.html#tabla">Tabla</a>
+                <a href="/Lenguajes%20y%20Marcas/HTML%20Avengers/index.html#informacion">Informacion</a>
+                </nav>                
             </div>
             <div class="acceso">
                 <form action="">
@@ -27,169 +34,312 @@
                         <label for="">Contraseña:</label>
                         <input type="password" name="marco" id="passwordUsuario"> 
                     </div>
-                    <button type="submit">Entrar</button>
+                    <div>
+                        <button type="submit">Entrar</button>
+                    </div>
+                    
                 </form>
             </div>
         </div>
-    </nav>
-    <h1>Lista de los Grandes Felinos</h1>
-    <div class="felinos">
-        <div class="felino">
-            <img src="/assets/leon.jpg" alt="">
-            <h2>León</h2>
-        </div>
-        <div class="felino">
-            <img src="/assets/tigre.jpg" alt="">
-            <h2>Tigre</h2>
-        </div>
-        <div class="felino">
-            <img src="/assets/jaguar.jpg" alt="">
-            <h2>Jaguar</h2>
-        </div>
-        <div class="felino">
-            <img src="/assets/leopardo.jpeg" alt="">
-            <h2>Leopardo</h2>
-        </div>
-        <div class="felino">
-            <img src="/assets/leopardonieves.jpg" alt="">
-            <h2>Leopardo de las Nieves</h2>
-        </div>
-        <div class="felino">
-            <img src="/assets/puma.jpg" alt="">
-            <h2>Puma</h2>
-        </div>
-        <div class="felino">
-            <img src="/assets/guepardo.jpg" alt="">
-            <h2>Guepardo</h2>
-        </div>
-        <div class="felino">
-            <img src="/assets/linceeuroasiatico.jpg" alt="">
-            <h2>Lince Euroasiatico</h2>
-        </div>
-        <div class="felino">
-            <img src="/assets/Panteranebulosaborneo.png" alt="">
-            <h2>Pantera Nebulosa de Borneo</h2>
-        </div>
-        <div class="felino">
-            <img src="/assets/Panteranebulosaborneo.png" alt="">
-            <h2>Pantera Nebulosa</h2>
-        </div>
-        <div class="felino">
-            <img src="/assets/serval.jpeg" alt="">
-            <h2>Serval</h2>
-        </div>
-        <div class="felino">
-            <img src="/assets/mainecoon.jpg" alt="">
-            <h2>Maine Coon</h2>
-        </div>
-    </div>
+    </header>
+    <main>
+    <h1 id="personajes">Lista de los Personajes</h1>
+    <section class="personajes" >
+        <figure class="foto">
+            <img src="assets/ironman.jpg" alt="">
+            <figcaption>Iron-Man</figcaption>
+        </figure>
+        <figure class="foto">
+            <img src="assets/hulk.jpg" alt="">
+            <figcaption>Hulk</figcaption>
+        </figure>
+        <figure class="foto">
+            <img src="assets/ant-man.jpg" alt="">
+            <figcaption>Ant-Man</figcaption>
+        </figure>
+        <figure class="foto">
+            <img src="assets/wasp.jpg" alt="">
+            <figcaption>Wasp</figcaption>
+        </figure>
+        <figure class="foto">
+            <img src="assets/thor.jpg" alt="">
+            <figcaption>Thor</figcaption>
+        </figure>
+        <figure class="foto">
+            <img src="assets/hawkeye.jpg" alt="">
+            <figcaption>Hawk Eye</figcaption>
+        </figure>
+        <figure class="foto">
+            <img src="assets/capitan-america.jpg" alt="">
+            <figcaption>Capitán America</figcaption>
+        </figure>
+        <figure class="foto">
+            <img src="assets/bruja escarlata.jpg" alt="">
+            <figcaption>Bruja Escarlata</figcaption>
+        </figure>
+        <figure class="foto">
+            <img src="assets/viudanegra.jpg" alt="">
+            <figcaption>Viuda Negra</figcaption>
+        </figure>
+        <figure class="foto">
+            <img src="assets/panteranegra.jpg" alt="">
+            <figcaption>Black Panther</figcaption>
+        </figure>
+        <figure class="foto">
+            <img src="assets/spider.jpg" alt="">
+            <figcaption>Spider Man</figcaption>
+        </figure>
+        <figure class="foto">
+            <img src="assets/doctorstrange.jpg" alt="">
+            <figcaption>Doctor Strange</figcaption>
+        </figure>
+    </section>
+    <h2 id="tabla">Tabla</h2>
+    <section class="tabla" >
     <table>
         <thead>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
+        <th>Nombre</th>
+        <th>Alias</th>
+        <th>Primera Aparicion</th>
+        <th>Creado</th>
+        <th>Ocupacion</th>
+        <th>Foto</th>
     </thead>
     <tbody>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>Anthony Edward Stark</td>
+            <td>Iron Man</td>
+            <td>Tales of Suspense #39 (marzo de 1963)</td>
+            <td>Stan Lee,Larry Lieber,Don Heck,Jack Kirby</td>
+            <td>Magnate,Científico,Ingeniero</td>
+            <td><img src="assets/ironman.jpg" alt=""></td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>Robert Bruce Banner</td>
+            <td>Incredible Hulk</td>
+            <td>The Incredible Hulk #1 (mayo de 1962)</td>
+            <td>Stan Lee y Jack Kirby</td>
+            <td>Científico</td>
+            <td><img src="assets/hulk.jpg" alt=""></td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>Scott Lang</td>
+            <td>Ant Man</td>
+            <td>Avengers #181(Scott),Marvel Premier #47(Ant-Man)</td>
+            <td>David Michelinie y John Byrne</td>
+            <td>Ingeniero Electrico</td>
+            <td><img src="assets/ant-man.jpg" alt=""></td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>Janet Van Dyne</td>
+            <td>La Avispa</td>
+            <td>Tales to Astonish N° 44 (junio de 1963)</td>
+            <td>Stan Lee y Jack Kirby</td>
+            <td>Sin Ocupacion</td>
+            <td><img src="assets/wasp.jpg" alt=""></td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>Thor Odinson</td>
+            <td>Thor</td>
+            <td>Journey Into Mystery #83 (agosto de 1962)</td>
+            <td>Stan Lee, Larry Lieber y Jack Kirby</td>
+            <td>Ser un Dios</td>
+            <td><img src="assets/thor.jpg" alt=""></td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>Clinton Francis "Clint" Barton</td>
+            <td>Hawk Eye</td>
+            <td>Tales of Suspense Nº 57 (1964)</td>
+            <td>Stan Lee y Don Heck</td>
+            <td>Circense,Tirador de Arco</td>
+            <td><img src="assets/hawkeye.jpg" alt=""></td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>Steven Grant Rogers</td>
+            <td>Capitán America</td>
+            <td>Captain America Comics #1 (marzo de 1941)</td>
+            <td>Joe Simon,Jack Kirby</td>
+            <td>SuperSoldado</td>
+            <td><img src="assets/capitan-america.jpg" alt=""></td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>Wanda Maximoff</td>
+            <td>Bruja Escarlata</td>
+            <td>The X-Men vol. 1 #4 (1964)</td>
+            <td>Stan Lee, Jack Kirby</td>
+            <td>Villana/Heroina</td>
+            <td><img src="assets/bruja escarlata.jpg" alt=""></td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>Natalia Alianovna Romanova</td>
+            <td>Viuda Negra</td>
+            <td>Tales of Suspense #52 (abril de 1964)</td>
+            <td>Stan Lee,Don Rico,Don Heck</td>
+            <td>Espía</td>
+            <td><img src="assets/viudanegra.jpg" alt=""></td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>T'Challa</td>
+            <td>Pantera Negra</td>
+            <td>The Fantastic Four N.º 52 (1966)</td>
+            <td>Stan Lee y Jack Kirby</td>
+            <td>Rey</td>
+            <td><img src="assets/panteranegra.jpg" alt=""></td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>Peter Benjamin Parker</td>
+            <td>Spider Man</td>
+            <td>Amazing Fantasy #15 (10 de agosto de 1962)</td>
+            <td>Stan Lee y Steve Ditko</td>
+            <td>Científico,Fotografo,Profesor</td>
+            <td><img src="assets/spider.jpg" alt=""></td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>Stephen Strange</td>
+            <td>Doctor Strange</td>
+            <td>Strange Tales #110 (julio de 1963)</td>
+            <td>Stan Lee y Steve Ditko</td>
+            <td>Cirujano,Mago</td>
+            <td><img src="assets/doctorstrange.jpg" alt=""></td>
         </tr>
     </tbody>
     </table>
+</section>
+<h2 id="informacion">Informacion</h2>
+<section class="information">
+    <articule>
+        <figure>
+            <img src="assets/ironman.jpg" alt="">
+            <figcaption>Iron-Man</figcaption>
+        </figure>
+        <p>Anthony Edward Stark es el hijo del jefe de Industrias Stark, Howard Stark y su esposa Maria Stark. Un niño genio que ingresa al MIT a la edad de 15 años para estudiar ingeniería mecánica y luego recibe maestrías en ingeniería eléctrica y física. Después de que sus padres mueren en un accidente automovilístico, hereda la compañía de su padre.</p>
+        <p>Mientras observaba los efectos de su tecnología experimental en el esfuerzo bélico estadounidense, Tony Stark es herido por una bomba y capturado por Wong-Chu, quien le ordena diseñar armas. Sin embargo, las lesiones de Stark son graves y la metralla se dirige a su corazón. Su compañero prisionero, Ho Yinsen, un físico ganador del Premio Nobel, cuyo trabajo se había ganado la admiración de Stark en el colegio, construye una placa pectoral magnética para evitar que la metralla alcance el corazón de Stark, manteniéndolo vivo. En secreto, Stark y Yinsen utilizan el taller para diseñar y construir una armadura de poder, la cual utiliza Stark para escapar. Sin embargo, durante el escape, Yinsen sacrifica su vida para salvar a Stark, distrayendo al enemigo para que Tony recargara. Stark se venga de sus secuestradores y escapa para reunirse con las fuerzas estadounidenses, conociendo en su camino a un piloto herido de la marina estadounidense, James "Rhodey" Rhodes.</p>
+        <p>De vuelta a casa, Stark descubre que el fragmento de metralla alojado en su pecho no se puede quitar sin matarlo, y él se ve obligado a utilizar la placa del pecho debajo de la ropa para actuar como un regulador para su corazón. También tiene que recargar la placa todos los días o de lo contrario corre el riesgo de que la metralla lo mate. La portada para Iron Man dice que él es el guardaespaldas de Stark y la mascota de su empresa. Con ese fin, Iron Man lucha contra las amenazas a su empresa, (como la oponente comunista Natasha Romanoff, el Dínamo Carmesí y el Hombre de Titanio), así como villanos independientes como el Mandarín, quien finalmente se convertiría en su peor enemigo. Nadie sospecha de que Stark es Iron Man, ya que cultiva su imagen como un millonario y empresario. Dos miembros notables del reparto de la serie, en este punto, son su chófer personal Harold "Happy" Hogan, y su secretaria Virginia "Pepper" Potts, a quienes finalmente les revela su identidad secreta. Mientras tanto, James Rhodes encuentra su propio lugar como el piloto personal de Stark, revelándose como un hombre de extraordinaria habilidad y audaz por derecho propio.</p>
+        <p>El cómic tuvo una postura anti-comunista en sus primeros años, que se suavizó conforme subió la oposición a la Guerra de Vietnam.Este cambio evolucionó en una serie de historias en las que Stark reconsidera sus opiniones políticas y la moralidad de la fabricación de armas para el ejército estadounidense. Stark se muestra a sí mismo como arrogante de vez en cuando, y dispuesto a actuar sin ética para "dejar que los fines justifiquen los medios".Esto lleva a conflictos personales con las personas que lo rodean, tanto en sus identidades civiles como de superhéroes. Stark usa su gran fortuna personal no solo para equipar su propia armadura, sino también para desarrollar armas para S.H.I.E.L.D.; otras tecnologías (por ejemplo, Quinjets utilizados por los Vengadores); y los inductores de imagen utilizados por los X-Men. Finalmente, la afección cardíaca de Stark se resuelve con un trasplante artificial de corazón.</p>
+        <details>
+            <summary>Habilidades</summary>
+            <p>Tony Stark es un genio inventivo cuya experiencia en los campos de las matemáticas, la física, la química y la informática compite con la de Reed Richards, Hank Pym y Bruce Banner, y su experiencia en ingeniería eléctrica e ingeniería mecánica supera a la de ellos. Es considerado como uno de los personajes más inteligentes del Universo Marvel. Se graduó con títulos avanzados en física e ingeniería a la edad de 17 años en el Instituto de Tecnología de Massachusetts (MIT) y desarrolló más sus conocimientos que van desde la Inteligencia artificial a la mecánica cuántica a medida que avanzaba el tiempo. Su experiencia se extiende a su ingenio para enfrentar situaciones difíciles, como enemigos difíciles y trampas mortales, en las que es capaz de usar las herramientas disponibles, incluido su traje, de manera poco ortodoxa pero efectiva. Es muy respetado en el mundo de los negocios, capaz de captar la atención de la gente cuando habla sobre asuntos económicos, y con el paso de los años ha creado varias empresas multimillonarias prácticamente sin nada. Se destaca por la lealtad que manda y devuelve a quienes trabajan para él, así como por su ética empresarial. Así, inmediatamente despidió a un empleado que hizo ventas rentables, pero ilegales, al Doctor Doom.Se esfuerza por ser ambientalmente responsable en sus negocios.</p>
+        </details>
+        <details>
+            <summary>Armadura</summary>
+            <figure>
+                <img src="assets/hulkbuster.jpg" alt="">
+                <figcaption>Hulkbuster</figcaption>
+            </figure>
+            <p>Iron Man posee una armadura motorizada que le da fuerza y durabilidad sobrehumanas, vuelo y una gran variedad de armas. La armadura es inventada y usada por Stark (con excepciones ocasionales a corto plazo). Otras personas que han asumido la identidad de Iron Man incluyen al socio de Stark y al mejor amigo James Rhodes; asociados cercanos Harold "Happy" Hogan; Eddie March;​ (brevemente) Michael O'Brien y Riri Williams.</p>
+            <p>Los sistemas de armas del traje han cambiado con los años, pero las armas ofensivas estándar de Iron Man siempre han sido los rayos repulsores que se disparan desde las palmas de sus guanteletes. Otras armas incorporadas en varias encarnaciones de la armadura incluyen: el proyector de haz único en su pecho; pernos de pulso (que acumulan energía cinética en el camino; por lo tanto, mientras más lejos viajan, más fuerte golpean); un generador de impulsos electromagnéticos; y un escudo de energía defensivo que puede extenderse hasta 360 grados. Otras capacidades incluyen: generar ultra-freón (es decir, un haz de congelación); creando y manipulando campos magnéticos; emisión de explosiones sonoras; y proyectando hologramas tridimensionales (para crear señuelos).</p>
+            <p>Además del modelo de uso general que usa, Stark ha desarrollado varios trajes especializados para viajes espaciales,​ buceo en aguas profundas, sigilo,​ y otros propósitos especiales. Stark ha modificado trajes, como la armadura pesada de Hulkbuster. La armadura Hulkbuster está compuesta de complementos a su llamada armadura modular, diseñada para aumentar su fuerza y durabilidad lo suficiente como para involucrar a Hulk en una pelea. Un modelo posterior, creado con la ayuda de Odín y el Uru de metal asgardiano, es similar al Destructor. Stark desarrolla un paquete de electrónica durante las Guerras de armaduras que, cuando está unido a armaduras que usan tecnologías de Stark, quemará esos componentes, haciendo que el traje sea inútil. Este paquete no es efectivo en los modelos posteriores. Si bien se asocia típicamente con James Rhodes, la armadura de Máquina de Guerra comenzó como una de las armaduras especiales de Stark.</p>
+        </details>
+    </articule>
+    <articule>
+        <figure>
+            <img src="assets/hulk.jpg" alt="">
+            <figcaption>Hulk</figcaption>
+        </figure>
+        <p>Durante la detonación experimental de una bomba gamma, el científico Bruce Banner salva al adolescente Rick Jones, que ha conducido al campo de pruebas; Banner empuja a Jones a una trinchera para salvarlo, pero es golpeado por la explosión, absorbiendo enormes cantidades de radiación gamma. Despierta más tarde, aparentemente ileso, pero esa noche se transforma en una forma gris y pesada. Un soldado perseguidor llama a la criatura "Hulk".Originalmente, se creía que las transformaciones de Banner en Hulk se debían a la puesta del sol y se deshacían al amanecer, pero más tarde, después de que Rick vio a Banner convertirse en Hulk durante el día, luego de un intento fallido de los hombres de Ross de lanzar a Hulk al espacio, fue descubierto para ser causado por la ira. Banner fue curado en El Increíble Hulk # 4, pero optó por restaurar los poderes de Hulk con la inteligencia de Banner. La máquina de rayos gamma necesitaba afectar los efectos secundarios inducidos por la transformación que hicieron que Banner se enfermara temporalmente y volviera a su estado normal.</p>
+        <p>En The Avengers # 1 (septiembre de 1963), Hulk se convirtió en miembro fundador del equipo homónimo de superhéroes del título. Por The Avengers # 3, el uso excesivo de la máquina de rayos gamma convirtió a Hulk en un monstruo incontrolable y desenfrenado, sujeto a cambios espontáneos. En Tales to Astonish # 59 (septiembre de 1964), Hulk apareció como antagonista de Giant-Man. La serie estableció el estrés como el desencadenante para que Banner se convierta en Hulk y viceversa.Fue durante este tiempo que Hulk desarrolló una personalidad más salvaje e infantil, alejándose de su representación original como una figura brutal pero no del todo inteligente. Además, su memoria, tanto a largo como a corto plazo, ahora se vería notablemente deteriorada en su estado de Hulk. En Tales to Astonish # 64 (febrero de 1965) fue la última historia de Hulk que lo presentó hablando en oraciones completas. En Tales to Astonish # 77 (marzo de 1966), la doble identidad de Banner y Hulk se hizo pública cuando Rick Jones, convencido erróneamente de que Banner estaba muerto (cuando en realidad había sido catapultado hacia el futuro), le dijo al comandante Glenn Talbot, un rival de Banner para los afectos de Betty Ross, la verdad. En consecuencia, Glenn informó a sus superiores y eso convirtió a Banner en un fugitivo buscado al regresar al presente.</p>
+        <p>En la década de 1970, Banner y Betty casi se casaron en The Incredible Hulk # 124 (febrero de 1970).Betty finalmente se casó con Talbot en el número 158 (diciembre de 1972).Hulk también viajó a otras dimensiones, una de las cuales lo hizo conocer a la emperatriz Jarella, quien utilizó la magia para llevar la inteligencia de Banner a Hulk, y llegó a amarlo. Hulk ayudó a formar a los Defensores.</p>
+        
+    </articule>
+    <articule>
+        <figure>
+            <img src="assets/ant-man.jpg" alt="">
+            <figcaption>Ant-Man</figcaption>
+        </figure>
+        <p>Scott Edward Harris Lang nació en Coral Gables, Florida.Como fanático de las películas, recurrió al robo cuando su ocupación como ingeniero eléctrico no le proporcionó suficiente entusiasmo en la vida.(Esto se confirmó más tarde con la declaración de que lo hizo porque no podía mantener a su familia.) Detenido, Lang cumplió su condena de prisión y fue condenado a libertad condicional después de cuatro años por buena conducta. En prisión, amplió su estudio de electrónica y pronto fue contratado por Stark Internacional para trabajar en su departamento de diseño. Bajo la dirección de Tony Stark, él ayudó a instalar un nuevo sistema de seguridad en la Mansión de los Vengadores.</p>
+        <p>Cuando su hija, Cassie se enfermo gravemente, Scott Lang buscó a la Dra. Erica Sondheim, la única persona capaz de ayudarla. Sin embargo, en el mismo momento en que intentó comunicarse con ella, a Sondheim la llevaron por la fuerza a Empresas Tecnológicas Cross, y para sacarla, decidió regresar al robo como último recurso.Él irrumpió en la casa del Dr. Henry Pym y robó el traje Ant-Man y la reducción de latas de gas.Presentado como Ant-Man, Lang irrumpió en Empresas Cross y descubrió que Sondheim estaba detenida por Darren Cross. Rescató al médico de las garras de Cross y se sintió aliviado cuando Sondheim pudo salvar la vida de su amada hija Cassie. Al ser confrontado por Pym (como Yellowjacket), Lang intentó devolver el traje Ant-Man a Pym y entregarse por su robo, pero Pym, consciente del uso que Lang le había dado a los bienes robados, le ofreció dejarlos a él, siempre y cuando los use solo para defender la ley.</p>
+        <p>Poco después, Scott Lang usó el traje Ant-Man en varias ocasiones, principalmente para ayudar a Iron Man y a los Vengadores. Scott fue al rescate cuando Iron Man estaba atrapado en la armadura luego de una sobrecarga del sistema.Él también ayudó a Yellowjacket (el alias de Hank Pym desde entonces) en un intento de rescatar a la Avispa (Janet Van Dyne) capturada por el Dr. Parnell Solomon. Junto a los Vengadores, Lang primero luchó contra Taskmaster.Luego se enfrentó a los insectos mutados de Odd John, y se topó con Biotron de los Micronautas.Junto a Spider-Man, Lang una vez más luchó contra Taskmaster, explotando la creencia de Taskmaster de que era Pym al usar sus cápsulas de crecimiento en una de sus hormigas como una táctica de sorpresa.Después, él trató de detener a los Raiders en una convención de ingenieros electrónicos en Dallas. Más tarde, Lang se enfrentó al sistema de seguridad informático en mal funcionamiento GARD, ayudó a Iron Man y Jim Rhodes contra Macero, conoció a los 4 Fantásticos, y con ellos viajó por primera vez a un "micro-mundo", donde luchó al lado de la Mole en la batalla contra sus habitantes.</p>
+        
+    </articule>
+    <articule>
+        <figure>
+            <img src="assets/wasp.jpg" alt="">
+            <figcaption>Wasp</figcaption>
+        </figure>
+        <p>Janet van Dyne nació en Cresskill, Nueva Jersey, hija socialité del rico científico Vernon van Dyne. Cuando su padre es asesinado por una entidad alienígena desatada durante uno de sus experimentos, Janet recurre a su asociado, el Dr. Henry "Hank" Pym en busca de ayuda y lo convence de que la ayude. Para vengar la muerte de su padre, se somete a un procedimiento bioquímico que le otorga la capacidad de desarrollar alas al contraerse bajo cuatro pies de altura y utiliza un suministro de «partículas Pym» para cambiar su tamaño. Juntos, ella y Ant-Man derrotan al alienígena y vengan a su padre. Janet decide permanecer como Avispa y ser la pareja de Hank, ya que se ha enamorado de él, aunque Hank inicialmente rechaza sus sentimientos debido a las similitudes entre ella y su primera esposa que había sido asesinada.</p>
+        <p>Durante su tiempo como compañera de Hank, participó en numerosos conflictos con villanos que incluyeron el Puercoespín, Egghead y Torbellino (entonces conocido como el Trompo Humano). Aunque inicialmente sin ningún poder ofensivo, Janet demuestra ser ingeniosa, usar su habilidad para comunicarse con insectos para luchar, así como también usar un alfiler como arma para picar a las personas. Más tarde, usa una pistola de aire en miniatura, como el aguijón de la avispa original.</p>
+        <p>Después de la confrontación inicial con Loki que unió a los fundadores de Los Vengadores, son Janet y Hank quienes proponen formar un equipo de superhéroes. Janet sugiere el nombre del equipo y se convierte en miembro fundadora.Sin carecer de confianza o valentía y por naturaleza una personalidad extrovertida, Janet siempre está en medio de las batallas con los villanos, que incluyen dioses nórdicos y extraterrestres, a pesar de ser el miembro menos poderoso del equipo. Janet frecuentemente comenta sobre el atractivo de sus colegas masculinos, especialmente Thor, para provocar los celos de Hank y hacer que se comprometa con una relación. Al principio de su carrera en Los Vengadores, es gravemente herida por una bala perdida en la batalla contra el Conde Nefaria, y casi muere de un pulmón colapsado.Deja el equipo varios números más tarde.Cuando regresa en Avengers vol. 1 # 26, sus poderes de contracción han progresado hasta el punto en que ya no necesita cápsulas de «partículas Pym» para cambiar su tamaño.</p>
+        
+    </articule>
+    <articule>
+        <figure>
+            <img src="assets/thor.jpg" alt="">
+            <figcaption>Thor</figcaption>
+        </figure>
+        <p>El padre de Thor, Odín, decide que su hijo necesita que le enseñe la humildad y, en consecuencia, coloca a Thor (sin recuerdos de la divinidad) en el cuerpo y los recuerdos de un estudiante de medicina humana existente, parcialmente discapacitado, Donald Blake.Después de convertirse en médico y de vacaciones en Noruega, Blake presencia la llegada de una partida de exploración alienígena. Blake huye de los extraterrestres a una cueva. Después de descubrir el martillo de Thor, Mjolnir (disfrazado como un bastón) y golpearlo contra una roca, se transforma en el dios del trueno.Más tarde, en Thor# 159, se revela que Blake siempre ha sido Thor, el hechizo de Odin lo ha llevado a olvidar su historia como El Dios del Trueno y creerse mortal</p>
+        <p>Derrotando a los alienígenas, Thor comparte una doble vida con su alter ego: tratar a los enfermos en una práctica privada con la enfermera - y el amor eventual - Jane Foster, y defender a la humanidad del mal. La presencia de Thor en la Tierra atrae casi inmediatamente la atención de su hermano adoptivo y enemigo, Loki.Loki es responsable del surgimiento de tres de los principales enemigos de Thor: el Hombre Absorbente;El Destructor,y el Demoledor.En una ocasión, las tácticas de Loki fueron accidentalmente beneficiosas, aunque tuvieron éxito en usar una ilusión de Hulk para llevar a Thor a la batalla, resulta en la formación del equipo de superhéroe, Los Vengadores, del cual Thor es miembro fundador y de larga data.Otros enemigos tempranos de Thor incluyen a Zarrko, el hombre del mañana;el Hombre Radiactivo;El Hombre de Lava;la Cobra;Señor Hyde;La Encantadora y el Verdugo,y la Gárgola Gris.</p>
+        <p>Enamorado de Jane Foster, Thor desobedece a su padre y se niega a volver a Asgard, un acto por el que es castigado en varias ocasiones.La afinidad natural de Thor por la Tierra finalmente se revela que se debe al hecho de que él era el hijo de la Diosa anciana Gaea.Aunque Thor inicialmente se considera a sí mismo como un "superhéroe" como sus compañeros de equipo en Los Vengadores, las maquinaciones de Loki atraen a Thor a aventuras cada vez más épicas, como formar equipo con su padre Odín y su aliado Asgardian Balder contra el demonio fuego Surtur y Skagg el gigante de la tormenta,y derrotando a un Hombre Absorbente cada vez más poderoso y probando su inocencia en el "Juicio de los Dioses".Esto requiere un permiso de ausencia prolongado de los Vengadores.</p>
+        
+    </articule>
+    <articule>
+        <figure>
+            <img src="assets/hawkeye.jpg" alt="">
+            <figcaption>Hawk Eye</figcaption>
+        </figure>
+        <p>Clint Barton nació en Waverly, Iowa. A una edad joven perdió a sus padres en un accidente automovilístico. Después de seis años en un orfanato, Clint y su hermano Barney se escaparon para unirse al Carnaval Viajero de Maravillas Carson.Clint pronto llamó la atención del Espadachín, que tomó al niño como su asistente. Junto con la ayuda de Trick Shot, el espadachín entrenador, Clint decide convertirse en un maestro arquero.Clint encontró, más tarde, al espadachín malversando del dinero de la feria. Antes de que pudiera entregar a su mentor a las autoridades, Clint fue golpeado y tomado por muerto, permitiendo que el espadachín escapara de la ciudad.La relación de Clint con su hermano Barney y Trick Shot, pronto se deterioró.</p>
+        <p>Clint adaptó sus habilidades de tiro con arco para convertirse en una atracción de carnaval estrella, un maestro arquero llamado "Ojo de Halcón", también conocida como “El tirador más grande del mundo”. Pasó algún tiempo como miembro del Circo de Ringmaster,antes de unirse al Circo de Coney Island. Fue testigo de Iron Man en acción y se inspiró para convertirse en un héroe disfrazado. Sin embargo, después de un malentendido en su primera aparición, Ojo de Halcón fue acusado de robo y catalogado de criminal. En la huida, el ingenuo Ojo de Halcón se topó con la Viuda Negra, una espía de la Unión Soviética, de la que se enamoró. Siguiendo ciegamente a la Viuda Negra, Ojo de Halcón la ayudó en su intento de robar la tecnología desarrollada por Tony Stark. En una de sus batallas con Iron Man, la Viuda Negra resultó gravemente herida. Ojo de Halcón la rescató y huyó de la batalla para salvar su vida. Pero antes de que Ojo de Halcón pudiera llevarla a un hospital, la Viuda Negra desapareció. Ojo de Halcón decidió ser un "tirador recto" a partir de entonces.</p>
+        <p>Ojo de Halcón más tarde rescata a Edwin Jarvis y su madre de un asaltante. En agradecimiento, Jarvis invita a Ojo de Halcón a la Mansión de los Vengadores y se inicia una etapa de una confrontación para permitirle al arquero limpiar su nombre y ganarse la confianza de los Vengadores. Ojo de Halcón es entonces patrocinado por su antiguo enemigo Iron Man, que ve en él serias intenciones acerca de convertirse en un héroe. Dirigido por el Capitán América, Ojo de Halcón se une al equipo junto con Quicksilver y la Bruja Escarlata para formar la segunda encarnación de los Vengadores.Casi inmediatamente, Ojo de Halcón hace enfrentamientos con sus compañeros Vengadores. Sus intenciones románticas hacia la Bruja Escarlata se reunieron con la hostilidad de su hermano, Quicksilver. Ojo de Halcón se rebela contra el liderazgo del Capitán América (debido a sus problemas del pasado con las figuras de autoridad), pero con el tiempo llega a respetarlo como un mentor y un amigo.Cuando el espadachín trató de unirse a los Vengadores, Ojo de Halcón les advirtió de su historia previa con el villano.</p>
+        
+    </articule>
+    <articule>
+        <figure>
+            <img src="assets/capitan-america.jpg" alt="">
+            <figcaption>Capitán America</figcaption>
+        </figure>
+        <p>El Capitán América, cuyo nombre real es Steven "Steve" Grant Rogers, es un superhéroe ficticio que aparece en los cómics estadounidenses publicados por Marvel Comics. Creado por los historietistas Joe Simon y Jack Kirby, el personaje apareció por primera vez en Captain America Comics #1 (marzo de 1941) de Timely Comics, predecesor de Marvel Comics. El Capitán América fue diseñado como un supersoldado patriota que luchaba frecuentemente contra las potencias del Eje en la Segunda Guerra Mundial, y fue el personaje más popular de Timely Comics durante el período de guerra. La popularidad de los superhéroes se desvaneció después de la guerra, y el cómic del Capitán América dejó de editarse en 1950, con un breve resurgimiento en 1953. Desde que Marvel Comics revivió al personaje en 1964, el Capitán América se ha mantenido en publicación.</p>
+        <p>El Capitán América viste un traje que lleva un motivo de la bandera de los Estados Unidos, y utiliza un escudo casi indestructible que lanza como proyectil. El personaje es generalmente representado como el álter ego de Steve Rogers, un joven frágil mejorado a la cima de la perfección humana por un suero experimental S.S.S. (Suero supersoldado) para ayudar a los esfuerzos inminentes del gobierno de Estados Unidos en la Segunda Guerra Mundial. Cerca del final de la guerra, queda atrapado en el hielo y sobrevive en animación suspendida hasta que es descongelado en el presente. A pesar de que el Capitán América a menudo lucha por mantener sus ideales como un hombre fuera de su tiempo con sus realidades modernas, sigue siendo una figura muy respetada en su comunidad, hasta convertirse en el líder de Los Vengadores.</p>
+        
+    </articule>
+    <articule>
+        <figure>
+            <img src="assets/bruja escarlata.jpg" alt="">
+            <figcaption>Bruja Escarlata</figcaption>
+        </figure>
+        <p> Después de la trágica muerte de su hija, Anya, en un incendio provocado por una multitud antimutante, el mutante Magneto, utilizó sus poderes y exterminó a toda la multitud ante la mirada horrorizada de su esposa, Magda, la cual huyó de su marido hacia la pequeña Nación de Transia en los Montes Balcanes, estando ya embarazada de mellizos. Magda dio a luz en la Montaña Wundagore, "La ciudadela del Alto Evolucionador", a los mellizos Wanda y Pietro. Ese día, el dios antiguo caído conocido como Chton le infundió a la recién nacida Wanda un gran potencial mágico además de sus habilidades mutantes. Magda murió luego del parto.</p>
+        <p>Por ese entonces también se presentaron en Wundagore Robert y Madeline Frank, viejos superhéroes conocidos como Whizzer y Miss América, quienes estaban esperando un hijo, el cual nació muerto, y Madeline murió con él. Bova, la mujer-vaca, asistente del Alto Evolucionador, ayuda a Madeline en la labor de parto. Madeline pierde la vida en el parto, de la misma manera que lo hace el hijo que esperaba. Bova decidió arreglar las cosas dándole los mellizos a Robert como si fueran sus hijos, pero al saber de la muerte de su esposa este escapó. Entonces, el Alto Evolucionador se presentó como un dios ante el gitano Django Maximoff y su esposa Marya y les entregó a los niños, que fueron entonces nombrados como Pietro y Wanda.</p>
+        <p>Después de que Django Maximoff robara pan de una ciudad vecina con el fin de alimentar a su famélica familia, los ciudadanos incendiaron la aldea romaní, matando a Marya. Pietro llevó a Wanda a un lugar seguro y los dos se mantuvieron deambulando por Europa. Los eventos de su infancia fueron tan traumáticos que no los recordaron hasta bien entrada la vida adulta. Después de que Wanda usó sus poderes para salvar a un niño, fueron perseguidos por una muchedumbre y salvados por Magneto, (sin que ninguno conociera el lazo sanguíneo que los unía). Como consecuencia, Magneto los recluta para formar parte de la Hermandad de Mutantes Diabólicos, que luchó contra los X-Men en varias ocasiones. Cuando Magneto fue secuestrado por la entidad cósmica Stranger, la Hermandad se disuelve y los gemelos declaran que su deuda con Magneto ha sido pagada.</p>
+        
+    </articule>
+    <articule>
+        <figure>
+            <img src="assets/viudanegra.jpg" alt="">
+            <figcaption>Viuda Negra</figcaption>
+        </figure>
+        <p>Natasha nació en Stalingrado (ahora Volgogrado), Rusia. La primera y más conocida Viuda Negra, es una agente rusa entrenada como espía, artista marcial y francotiradora, y equipada con un arsenal de armas de alta tecnología, que incluye un par de armas energéticas montadas en la muñeca y apodada "Piquete de la Viuda". No usa traje durante sus primeras apariciones, sino simplemente ropa de noche y un velo. Romanova eventualmente deserta a Estados Unidos por razones que incluyen su amor por el arquero criminal convertido en superhéroe, Hawkeye.</p>
+        <p>Los primeros indicios de la infancia de Natasha Romanova provienen de Ivan Petrovich, quien se presenta como su chofer de mediana edad y confidente en Amazing Adventures de Black Widow de los años setenta. El hombre le cuenta a Matt Murdock cómo una mujer le había otorgado la custodia de la pequeña Natasha justo antes de su muerte durante la Batalla de Stalingrado en otoño de 1942. En consecuencia, se había sentido comprometido a criar a la huérfana como un padre sustituto y finalmente se había entrenada como Espía soviética, ansiosa por ayudar a su patria. En otro flashback, ambientado en la ficticia isla de Madripoor en 1941, Petrovich ayuda al Capitán América y al mutante, Logan, quien luego se convertiría en el súper agente canadiense y héroe disfrazado de Wolverine, para rescatar a Natasha de los nazis</p>
+        <p>Una revisada reconectada de su origen, ella establece como ser levantado de la primera infancia por el programa "Operaciones Viuda Negra" de la URSS, en lugar de únicamente por Ivan Petrovich.Petrovich la había llevado al Departamento X, junto con otras huérfanas jóvenes, donde le habían lavado el cerebro y entrenada en combate y espionaje en la instalación encubierta de la "Habitación Roja". Allí, ella está mejorada biotecnológica y psicotecnológicamente, una contabilidad que proporciona una base racional para su vida útil inusualmente larga y juvenil. Durante ese tiempo ella tuvo algún entrenamiento bajo con el Soldado del Invierno, y la pareja incluso tuvo un breve romance.Cada Viuda Negra se despliega con recuerdos falsos para ayudar a asegurar su lealtad. Romanova eventualmente descubre esto, incluido el hecho de que nunca, como ella había creído, había sido una bailarina. Además, descubre que la Habitación Roja todavía está activa como "2R".</p>     
+    </articule>
+    <articule>
+        <figure>
+            <img src="assets/panteranegra.jpg" alt="">
+            <figcaption>Black Panther</figcaption>
+        </figure>
+        <p>Pantera Negra es el título ceremonial otorgado al jefe de la tribu Pantera de la avanzada nación africana de Wakanda. Además de gobernar el país, también es el jefe de sus diversas tribus (colectivamente denominadas Wakandas). El traje de Pantera es un símbolo de la oficina (jefe de estado) y se utiliza incluso durante misiones diplomáticas.</p>
+        <p>En un pasado distante, un meteorito hecho de vibranium (ficticio), que absorbe la vibración, se estrelló en Wakanda y fue desenterrado. Razonando que los extranjeros explotarían a Wakanda por este valioso recurso, el gobernante, el rey T'Chaka, al igual que su padre y otras panteras antes que él, ocultó su país del mundo exterior. La primera esposa de T'Chaka, N'Yami, murió mientras estaba de parto con T'Challa, y su segunda esposa, Ramonda, fue hecha prisionera por Anton Pretorius durante una visita a su tierra natal de Sudáfrica, por lo que durante la mayor parte de su infancia T'Challa fue criado solo por su padre.​T'Chaka fue asesinado por el aventurero Ulysses Klaw en un intento de apoderarse del montículo de vibranium. Con su gente todavía en peligro, un joven T'Challa usó el arma sonora de Klaw contra Klaw y sus hombres, destrozando la mano derecha de Klaw y obligándolo a huir.</p>
+        <p>T'Challa era el siguiente en la línea para ser el rey de Wakanda y Pantera Negra, pero hasta que estuvo listo para convertirse en el líder de la nación, su tío S'yan (el hermano menor de T'Chaka) pasó con éxito las pruebas para convertirse en la Pantera Negra. Mientras estaba en su rito de paso en Wakanda, T'Challa conoció y se enamoró de la aparentemente huérfana adolescente Ororo Munroe, quien creció hasta convertirse en el miembro de los X-Men, Tormenta.​Los dos rompieron su relación debido a su deseo de vengar la muerte de su padre y convertirse en el hombre que podría liderar adecuadamente a Wakanda, pero se verían a lo largo de los años cuando pudieran.</p>
+        
+    </articule>
+    <articule>
+        <figure>
+            <img src="assets/spider.jpg" alt="">
+            <figcaption>Spider Man</figcaption>
+        </figure>
+        <p>De acuerdo con Amazing Fantasy n° 15 (agosto de 1962), en donde hizo su primera aparición el personaje, Peter Benjamin Parker es un joven huérfano nativo de Forest Hills, Queens, en Nueva York, que vive con sus tíos May y Ben. Durante su etapa como estudiante de la ficticia Midtown High School,es mordido por una araña radiactiva en una exhibición científica y «adquiere la agilidad y la fuerza proporcional de un arácnido» Además de incrementar sus habilidades atléticas, a partir de ese momento Parker es capaz de adherirse a superficies. Gracias a sus conocimientos científicos, desarrolla un dispositivo que le permite disparar telarañas a través de pequeños cilindros montados en sus muñecas. Inicialmente usa sus poderes para volverse popular entre el público televisivo, lo cual le lleva a diseñar su propio disfraz y participar en una competición de lucha libre, sin embargo un día «ignora alegremente la posibilidad de detener a un ladrón que huye, y su indiferencia irónicamente lo alcanza cuando el mismo delincuente más tarde asalta y mata a su tío Ben». Tras detener al asesino, Parker aprende la lección de que «un gran poder conlleva una gran responsabilidad».</p>
+        <p>La vida personal de Parker no se ve beneficiada por la obtención de sus superpoderes: debe ayudar a su tía viuda a pagar el alquiler de su casa, es acosado por compañeros como Flash Thompson y tiene que lidiar con la personalidad explosiva del jefe de la editorial en la que trabaja, J. Jonah Jameson. Un tiempo después, el joven se gradúa de la high school e ingresa a la Universidad Empire State, en donde conoce a su mejor amigo Harry Osborn y a su novia Gwen Stacy. Eventualmente su tía le presenta a Mary Jane Watson. Tras enterarse de que el padre de Harry es el Duende Verde, Peter considera abandonar su rol como vigilante. Otro par de sucesos notables en ese período ocurren cuando George Stacy, el capitán del Departamento de Policía de Nueva York y padre de Gwen, muere durante un enfrentamiento entre el hombre araña y Doctor Octopus; mientras que el primer encuentro de Spidey con el villano Kingpin ocurre cuando este último secuestra a Jameson para evitar que sigan difundiendo historias sobre sus socios criminales.</p>
+        
+    </articule>
+    <articule>
+        <figure>
+            <img src="assets/doctorstrange.jpg" alt="">
+            <figcaption>Doctor Strange</figcaption>
+        </figure>
+        <p>Stephen Strange es un médico especializado en neurocirugía, codicioso y egocéntrico, que solo se preocupa por la riqueza de su carrera, hasta que en un accidente sufrió una enfermedad nerviosa en sus manos que le obligó a retirarse. Cuando su padre murió, su hermano fue a visitarlo para recriminarle que no fue al funeral ese día. Stephen estaba con una chica, por lo que su hermano salió enfadado. Estaba nevando esa noche y hubo un accidente en el cual su hermano murió al ser atropellado. Stephen hizo que su cadáver fuera criogenizado hasta el día en que la ciencia lo pudiera revivir.</p>
+        <p>Un día escuchó hablar en un puerto acerca de un tibetano con poderes, por lo que fue a verle y con el aprendió las artes místicas, ayudó a su mentor "el Anciano", quien poseía el título de Hechicero Supremo de esta dimensión, a repeler todo el mal místico que quiera causar daño a esta dimensión; tuvo enfrentamientos con sus enemigos, algunos traidores como el Barón Mordo quien deseaba el título de hechicero supremo, y consiguió vencer a entidades místicas extra-dimensionales como Pesadilla, Dormammu, entre otros.</p>
+        <p>Desde la primera historia la residencia de Strange, el Sanctum Sanctorum, era una parte de la mitología del personaje, caracterizada por la ventana circular dividida por tres líneas de barrido en la parte frontal de la residencia (en realidad es el sello de protección de la Vishanti). El sirviente personal de Strange, Wong, custodiaba la residencia en su ausencia.</p>
+        
+    </articule>
+
+</section>
+</main>
 </body>
 </html>

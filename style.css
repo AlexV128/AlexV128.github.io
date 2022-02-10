@@ -1,28 +1,40 @@
-nav{
+body{
+    max-width: 1200px;
+    margin: auto;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    background-image: url(https://www.xtrafondos.com/wallpapers/vertical/galaxia-en-el-espacio-4052.jpg);
+}    
+header{
+    background-image: url(https://www.todofondos.net/wp-content/uploads/marvel-fondo-de-pantalla-4k-para-su-escritorio-o-pantalla-movil-gratis-scaled.jpg);
     background-color: white;
     color: black;
     width: 100%;
     font-size: 2rem;
-    border-bottom: 5px solid rgb(235, 188, 101);
+    border-bottom: 5px solid rgb(214, 0, 0);
     position: fixed;
     display: flex;
+    font-weight: bold;
     top: 0%;
     left: 0%;
     z-index: 1;
 }
+main{
+    padding-top: 5.5rem;
+    text-align: center;
+}
 .menu{
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 .menu1{
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    font-size: 2rem;
+    font-size: 2.25rem;
 }
 .menu1 a{
     color: black;
@@ -31,16 +43,108 @@ nav{
 }
 #logo{
     align-items: center;
-    height: 4rem;
+    height: 6rem;
 }
 .acceso div{
-    display: inline-block;
+    display: flex;
     box-sizing: border-box;
-    font-size: 0.75rem;
-    padding: 0.25rem;
+    justify-content: space-between;
+    font-size: 1rem;
+    color: white;
+    padding: 0.5rem;
+    padding-bottom: 0.25rem;
     margin-right: 0.25rem;
 }
 .acceso input{
     border-bottom: 2px solid black;
     color: black;
+}
+button{
+    color: white;
+    background-color: black;
+    font-family: inherit;
+    font-size: inherit;
+    border: 1rem;
+    padding-right: 45%;
+    padding-left: 40%;
+}
+.personajes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+}
+.foto>img{
+    width: 100%;
+    min-width: 100px;
+    object-fit: cover;
+}
+.foto{
+    box-sizing: border-box;
+    max-width: 16.66%;
+    min-width: 200px;
+    margin: 0px;
+    text-align: center;
+    color: white;
+}
+h2{
+    font-size: 2.5rem;
+}
+table{
+    border-collapse: collapse;
+    display: block;
+    border: 1px solid white;
+    background-color: black;
+    overflow-x: auto;
+}
+thead{
+    background-color: black;
+}
+tbody{
+    overflow-y: hidden; 
+    overflow-x: auto;
+}
+tbody>tr:nth-child(2n){
+    background-color: rgb(0, 76, 121);
+}
+tbody>tr:nth-child(2n+1){
+    background-color: rgb(151, 0, 0);
+}
+td:nth-child(1){
+    font-weight: bold;
+}
+td{
+    width: 16.66%;
+    min-width: 150px;
+}
+td>img{
+    width: 100%;
+    object-fit: contain;
+    margin: 0px;
+    padding: 0px;
+}
+th,td{
+    border: 1px solid white;
+    padding: 0.25rem;
+}
+.information>articule{
+    display: flex;
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid black ;
+    font-size: large;
+}
+.information figure{
+    box-sizing: content-box;
+    max-width:15%;
+    float: right;
+    text-align: center;
+    background-color: black;
+    border: 1px solid navy;
+}
+.information img{
+    box-sizing: border-box;
+    width: 100%;
+    object-fit: cover;
+    margin: 0px;
 }
