@@ -148,3 +148,11 @@ th,td{
     object-fit: cover;
     margin: 0px;
 }
+details:hover{
+    color: red;
+    cursor: pointer;
+}
+
+details>p{
+    color: white;
+}
